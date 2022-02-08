@@ -1,0 +1,81 @@
+/*Asi se ponen los comentarios en CSS*/
+/*Medidas:
+1em = 16px pero si establecemos el tamaño en el body de manera
+de px la unidad em se establecera con esa medida ejemplo 20px =20em ya que esta unidad
+toma la medida del padre mas cercano a ella*/
+body {
+    background:#6F7C8A; /*Color del fondo*/
+    color: black;/*Color de la letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif 
+}
+
+/*Asi se Cambia el color de ciertos titulos h*/
+h1,h2{
+    color:rgba(203, 81, 238,.5); /*El ultimo numero es la oppacidad de la letra*/
+    background-color: #59636E; /*En hexagesimal no se puede poner opacidad como en rgba*/
+    width: 75%;
+}
+
+table{
+    color: #560D5C;
+}
+
+
+/*Asi se cambia el color de los parrafos y demas textos que no sean tiulos*/
+
+p{
+    color: black;
+    
+}
+
+/*Solo nos cambia el tamaño de los links o textos a en los parrafos*/
+p a{
+    font-size: 20px;
+}
+
+a{
+    font-size: 20px;
+    color: red;
+}
+
+/*Asi se cambia el tamaño de los textos*/
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+}
+
+/*Cada elemento del html que tenga la clase (yellow) por ejemplo tendra ese color*/
+.green{
+    color: green;
+}
+
+/*De esta manear se cambia el color y tamaño de un solo link para que resalte*/
+a[href="https://www.twitch.tv"]{
+    color:blue;
+    font-size: 30px;
+    
+}
+
+a[href="https://www.youtube.com"]{
+    color:blue;
+    font-size: 30px;
+}
+
+/*Modelo de Caja */
+div p{
+    width: 50%;
+    height: 50%;
+    background:rgba(203, 81, 238,.5);
+    margin:30px 50px;
+    padding: 50px 50px;
+    border: 10px outset #560D5C;
+    display:inline-block; /*Para poner elementos en lina osea al lado del otro*/
+}
+
+/*De esta manera quitamos los espacios en una pagina web*/
+/**{
+    margin:0;
+    padding:0;
+}*/

@@ -1,0 +1,16 @@
+body{
+    background:url(/HTML/Imagenes/Pepe.jpg);
+    background-repeat: no-repeat;/*No se repite ams el fondo y se le agrega x o y si queremos horizontal o vertical*/
+    color: red;
+    /*backgroun-attachment:fixed Hace que el fondo sea fijo en la pantalla*/
+    /*backgroun-attachment:scroll Hace que el fondo se mueva con el scroll en la pantalla*/
+    background-position: 500px 200px;/*Sirve para edita la posicion del fondo, primer valor modifica derecha y segundo hacia abajo*/
+    background-position: center 0;/*Sirve para centrar el fondo en la mitad*/
+}
+
+/*div{
+    background:url(/HTML/Imagenes/trumpepe.png);/*Se pueden agregar tanto imagenes como colores*/
+    /*height: 50px;/*Se puede modificar el tamañno de la imagen en el fondo*/
+    /*color: red;
+    background-repeat: no-repeat;/*Sirve para que no se repita la imagen
+    }*/

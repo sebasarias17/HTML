@@ -1,0 +1,24 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    color: black;
+    font-size: 30px;
+    float: left;/*Todas las cajas se desplazan hasta la izquierda o derecha*/
+
+}
+/*.caja_padre{
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    position: relative;
+}Sirve apra que la caja Hija pueda moverse dentro de su espacio*/
+
+.caja{
+    position: static;/*position tiene(absolute,relative,fixed,static)*/
+    top:100px;
+    bottom:0 ; /*Aqui van hacia arriba*/
+    right:0; /*Aqui van hacia la izquierda*/
+    left: 300px; 
+}
+/*Para oner texto al lado de una imagen ver el curso basico de css minuto 14:00*/
